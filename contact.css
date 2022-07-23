@@ -1,0 +1,103 @@
+.contact{
+    align-items: center;
+    padding: 50px;
+    align-items: center;
+
+}
+.text h2 {
+    margin-top: 50px;
+    text-align: center;
+}
+textarea { 
+    width: 97%;
+    height: 70px;
+    padding: 10px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    border-radius: 10px;
+  }
+
+  .insh input[type=text]
+  {
+    width: 48%;
+    height: 70px;
+    padding: 10px 20px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    border-radius: 10px;
+    margin: 6px;
+
+
+  }
+  
+  input[type=submit],
+  input[type=reset] {
+    display: inline-block;
+    padding: 8px 30px;
+    color:lightcoral;
+    background-color: transparent;
+    border: 2px solid lightcoral;
+    border-radius: 5px;
+    font-size: 18px;
+    /* letter-spacing: .1rem; */
+    margin-top: 10px;
+    transition: .3s ease back-ground-color;
+  }
+  
+  /* When moving the mouse over the submit button, add a darker green color */
+  input[type=submit]:hover,
+  input[type=reset]:hover {
+    color: white;
+    background-color: #707BF9;}
+
+
+    .container {
+        width: 100%;
+        height: 100px;
+        background-position: center;
+        background-size: cover;
+        padding-left: 7%;
+        padding-right: 2%;
+        box-sizing: border-box;
+        background-color: lightyellow;
+    }
+    
+    
+    
+    .navbar {
+        height: 100px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    
+    .logo {
+        width: 192px;
+        cursor: pointer
+    }
+    
+    nav ul li {
+        list-style: none;
+        display: inline-block;
+        margin-left: 60px;
+        position: relative;
+    }
+    
+    
+    nav ul li:hover::after {
+        width: 100%;
+    }
+    
+    nav ul li a {
+        text-decoration: none;
+        color: #000001;
+        font-size: 16px;
+    }
+.select{
+    width: 48%;
+    border: none;
+
+}
